@@ -55,7 +55,7 @@ def removeNonPNGFromFiles(files_dict):
                 files_dict[folder].remove(fi)
 
 def overlayImages(path, image_list):
-    
+
 
 def main():
     path = os.path.dirname(__file__) + '\\img\\'
@@ -75,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
